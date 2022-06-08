@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "vk-miniapps-deploy"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "git": "^0.1.5",
+    "https": "^1.0.0",
+    "request-promise": "^4.2.6",
+    "vk-miniapps-deploy": "^9999.0.0"
+  }
+}
